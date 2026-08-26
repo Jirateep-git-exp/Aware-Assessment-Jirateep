@@ -10,6 +10,10 @@ Restore dependencies:
 
 ``` dotnet restore ```
 
+And Then
+
+``` dotnet build ```
+
 Run the API:
 
 ``` dotnet run --project .\src\AwareAssessment.Api\ ```
