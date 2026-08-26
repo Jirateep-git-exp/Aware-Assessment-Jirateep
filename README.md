@@ -18,7 +18,11 @@ In this Assessment I Use Postman to test the APIs.
 
 
 ## Authorization
-make sure you POST `/api/auth/login` to get the token and use it in the header for the GET request.
+make sure you POST `/api/auth/login` then select "Body" and select "raw" and enter the username and password.
+
+username: `admin`
+password: `1234`
+
 and in Postman, select Authorization tab, select Bearer Token and paste the token in the Token field.
 
 ## For Test Any Task
